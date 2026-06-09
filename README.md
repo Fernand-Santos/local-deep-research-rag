@@ -9,7 +9,7 @@ Private local legal research system. Ingests PDFs from hierarchical folders, chu
 - **Advanced**: Manual ingestion (workspaces, sources, discovery, parsing, chunking, Chroma mirror), single-scope retrieval test, run compiler/orchestrator, execution, cumulative output, reports.
 
 ## Demo
-<video src="https://github.com/Fernand-Santos/local-deep-research-rag/raw/main/docs/assets/Local_RAG_State_Regs.mp4" controls width="100%"></video>
+<video src="https://github.com/Fernand-Santos/local-deep-research-rag/blob/main/Local_RAG_State_Regs.mp4" controls width="100%"></video>
 
 ## Architecture
 
