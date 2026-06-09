@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Conda / venv
+.venv/
+venv/
+env/
+.env
+.env.local
+*.conda
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Local app state (not committed)
+.local_deep_research/
+*.sqlite
+*.db
+state.sqlite
+
+# Chroma / vectorstore
+chroma/
+chroma_db/
+vectorstore/
+
+# Logs / traces / reports
+logs/
+traces/
+reports/
+previews/
+*.log
+
+# Local corpora (large, machine-specific)
+Agencies/
+Investor_Guidelines/
+Federal_Requirements/
+GSE_Requirements/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary / scratch
+*.tmp
+*.temp
+.cache/
+.cursor/
+
+# Streamlit secrets (never commit)
+.streamlit/secrets.toml
+
+# Legal corpus — large PDFs stay local; users set STATES_ROOT
+Laws_Regulations/
+*.pdf
+
+# Dev / analytics exports (may contain query text)
+*_Run_Data.csv
+4_10_2026_Run_Data.csv
+
+# Chroma cross-process lock (sibling to persist dir, if ever under project)
+.chroma.write.lock
+.*.write.lock
+
+# Scratch / smoke tests
+_test_*.py
+_smoke*.py
+_inspect_*.py
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows
+desktop.ini
+ehthumbs.db
