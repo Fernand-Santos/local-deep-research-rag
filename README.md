@@ -8,8 +8,10 @@ Private local legal research system. Ingests PDFs from hierarchical folders, chu
 - **Knowledge Base**: States root sync, per-jurisdiction ingestion status, indexed coverage. "Sync States Root" runs the full pipeline for all discovered state folders.
 - **Advanced**: Manual ingestion (workspaces, sources, discovery, parsing, chunking, Chroma mirror), single-scope retrieval test, run compiler/orchestrator, execution, cumulative output, reports.
 
-## Demo
+## Demo 1
 https://github.com/user-attachments/assets/18dcb451-04a3-4fb0-bf36-492b307f832b
+
+## Demo 2
 https://github.com/user-attachments/assets/3194ba36-7500-4b75-8b53-a3c47390ccef
 
 ## Architecture
